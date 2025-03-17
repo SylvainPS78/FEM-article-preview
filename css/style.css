@@ -1,0 +1,16 @@
+*, *::after, *::before {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--Light-Grayish-Blue);
+}
+
+:root {
+--Dark-Grayish-Blue: hsl(217, 19%, 35%);
+--Dark-Blue: hsl(214, 17%, 51%);
+--Grayish-Blue: hsl(212, 23%, 69%);
+--Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
