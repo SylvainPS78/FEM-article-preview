@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Article preview component</title>
 </head>
 
@@ -13,6 +16,7 @@
     <div id="container">
       <img  src="./images/drawers.jpg"
             alt ="image of a drawer"
+            id="product-img"
             height=""
             width=""
           >
@@ -32,19 +36,21 @@
       <div id="author-info">
         <img  src="./images/avatar-michelle.jpg"
               alt ="avatar of Michelle Appleton"
+              id="author-img"
               height=""
               width=""
             >
         <h2 id="author-name">Michelle Appleton</h2>
         <p id="date">28 Jun 2020</p>
-        <button type="button" id="link-btn">Share</button>      
+
+        <input type="image" src="./images/icon-share.svg" alt="button image" id="link-btn">  
       </div>
     </div>
   </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Sylvain Web</a>.
   </div>
   <script src="./js/script.js"></script>
 </body>
