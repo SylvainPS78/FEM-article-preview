@@ -162,6 +162,8 @@ p {
         min-width: 55rem;
         align-items: center;
         gap:0px;
+        position:relative;
+        box-shadow: 0 4px 8px var(--Dark-Grayish-Blue);
     }
     
     #product-img {
@@ -210,8 +212,8 @@ p {
     
     #share-links {
         position: absolute; 
-        bottom: 460px; 
-        right: calc(10vw + 30px);  
+        bottom: 6rem; 
+        right: -1.3rem;  
         width: auto; 
         height: auto; 
         padding: 10px 20px; 
@@ -222,7 +224,12 @@ p {
         flex-direction: row;
         align-items: center;
         gap:20px;
+        box-shadow: 0 4px 8px var(--Dark-Grayish-Blue);
     }
+
+
+    
+
     
     #author-img {
         width:4rem;
