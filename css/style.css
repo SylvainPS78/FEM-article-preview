@@ -36,6 +36,8 @@ body {
 #product-img {
     width:100%;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    height:200px;
 }
 
 #text-content {
@@ -48,14 +50,14 @@ body {
 
 h1 {
     color: var(--Dark-Grayish-Blue);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
 p {
     color: var(--Dark-Blue);
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #author-info {
@@ -95,7 +97,7 @@ p {
     grid-row: 1;
     align-self: center;
     color: var(--Dark-Grayish-Blue);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -112,9 +114,9 @@ p {
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 40px;
-    height: 40px;
-    margin-left:10px;
+    width: 30px;
+    height: 30px;
+    margin-left:13px;
 }
 
 .svg-button {
